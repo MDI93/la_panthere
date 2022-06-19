@@ -1026,6 +1026,11 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .row.row-no-gutters.social {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 }
 
 @media (max-width: 400px) {
