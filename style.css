@@ -1031,6 +1031,12 @@ h4 {
         flex-direction: row;
         justify-content: space-around;
     }
+    .col-sm-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
 }
 
 @media (max-width: 400px) {
